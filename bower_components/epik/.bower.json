@@ -1,0 +1,48 @@
+{
+  "name": "epik",
+  "version": "0.2.3",
+  "main": [
+    "lib/index.js",
+    "lib/model.js",
+    "lib/model-sync.js",
+    "lib/collection.js",
+    "lib/collection-sync.js",
+    "lib/agent.js",
+    "lib/router.js",
+    "lib/storage.js",
+    "lib/require.config.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "dist",
+    "example",
+    "test",
+    "bower_components",
+    "lib/components",
+    "tests"
+  ],
+  "dependencies": {
+    "primish": "~0.3.1",
+    "requirejs": "~2.1.10",
+    "lodash": "~2.4.1",
+    "slicker": "~0.0.2",
+    "rivets": "~0.6.5",
+    "jquery": "1.10.2"
+  },
+  "authors": [
+    "DimitarChristoff <christoff@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/DimitarChristoff/epik",
+  "_release": "0.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.3",
+    "commit": "8955746f22b465b8f25a9f3a1727e95449758d76"
+  },
+  "_source": "git://github.com/DimitarChristoff/epik.git",
+  "_target": "0.2.3",
+  "_originalSource": "epik"
+}

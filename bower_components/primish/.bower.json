@@ -1,0 +1,32 @@
+{
+  "name": "primish",
+  "version": "0.3.1",
+  "main": [
+    "prime.js",
+    "emitter.js",
+    "options.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "spec",
+    "dist",
+    "example",
+    "Gruntfile.js",
+    "LICENSE",
+    "README.md",
+    "bower.json",
+    "package.json"
+  ],
+  "homepage": "https://github.com/DimitarChristoff/primish",
+  "_release": "0.3.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.3.1",
+    "commit": "cded4e9a75961bec75dbc350867c549a993ed6f7"
+  },
+  "_source": "git://github.com/DimitarChristoff/primish.git",
+  "_target": "~0.3.1",
+  "_originalSource": "primish"
+}
