@@ -20,7 +20,7 @@
 			<input id="toggle-all" type="checkbox" ep-on-change="toggler" ep-checked="toggleStatus" ep-show="collection.length | gt 0"/>
 			<label for="toggle-all">Mark all as complete</label>
 			<ul id="todo-list" ep-each-item="collection#">
-				<li ep-class-editing="item.editing" data-id="{{item#id}}" ep-show="item#completed | filterMatch">
+				<li ep-class-editing="item.editing" ep-show="item#completed | filterMatch">
 					<div class="view">
 						<input class="toggle" type="checkbox" ep-checked="item#completed">
 						<label ep-text="item#title" ep-on-dblclick="edit"></label>
