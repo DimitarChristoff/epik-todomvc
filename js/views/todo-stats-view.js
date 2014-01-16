@@ -27,6 +27,10 @@ define(function(require){
 		attachEvents: function(){
 			var model = this.model;
 
+                        this.rivets.formatters.plural = function(value){
+				return value == 1 ? '' : 's';
+			};
+
 			this.bindRivets(this);
 			this.collection.on('change reset', function(){
 				model.set({
